@@ -6,15 +6,15 @@
 
 // ilk olarak not değişkeni tanımlandıktan sonra if else yapılarını kullanarak kullanıcının notunun 50 den yüksek veya düşük olma durumlarını kontrol edin. İlk çözümünüzü aşağıda verilen 1. çözün alanında * işaretleri arasında kodlayın.
 
-// ! 1.çözüm
+//! 1.çözüm
 // ******************
-// not = 99;
-// a = 50;
-// if (not > a) {
-//   console.log("dersi geçtiniz");
-// } else {
-//   console.log("dersten kaldınız");
-// }
+not = 99;
+a = 50;
+if (not > a) {
+    console.log("dersi geçtiniz");
+} else {
+   console.log("dersten kaldınız");
+}
 
 // ******************
 
@@ -22,15 +22,16 @@
 
 // ! 2.çözüm
 // ******************
-// function hesapla() {
-//   if (not > a) {
-//     console.log("dersi geçtiniz");
-//   } else {
-//     console.log("dersten kaldınız");
-//   }
-// }
 
-// hesapla();
+function hesapla() {
+  if (not > a) {
+     console.log("dersi geçtiniz");
+  } else {  
+    console.log("dersten kaldınız");
+  }
+}
+
+hesapla();
 
 // ******************
 
